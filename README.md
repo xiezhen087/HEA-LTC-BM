@@ -1,5 +1,9 @@
 # HEA-LTC-BM
 
+<p align="center">
+  <img src="assets/graphic_abstract.png" alt="Graphical abstract: the TSPPES workflow and target-space partitioning" width="900">
+</p>
+
 Machine-learning-guided screening of high-entropy alloys (HEAs) with high
 bulk modulus (B) and lattice thermal conductivity (κ_l), combining a
 Mix-GNN property-prediction model pre-trained on universal materials
