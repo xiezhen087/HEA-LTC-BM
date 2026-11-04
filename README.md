@@ -47,7 +47,8 @@ everything here.
   `code/materials_id_in_data_sets/materials_ids_in_datasets.xls`; the
   training split can be recovered as the complement of the test split.
 - Alloy POSCAR files (optimization candidates and DFT-validation
-  structures) are hosted on Zenodo: [DOI to be added].
+  structures) and the source data of the article's figures and tables are
+  hosted on Zenodo: https://doi.org/10.5281/zenodo.23938398.
 - Optimization scripts expect pure-metal supercell templates under
   `{bi,ter,quater,qui}_alloy/{fcc,bcc,hcp}/POSCAR_{Fe,W,Zr}_{fcc,bcc,hcp}`;
   such templates are generated from the primitive cells in `framework/`
@@ -107,8 +108,8 @@ Citation details will be added upon publication.
 - `pre_trained_models/*/result/*/test_loader.pt`——序列化的测试集。完整数据
   集见 `code/materials_id_in_data_sets/materials_ids_in_datasets.xls`；训练集
   划分可由完整数据集对测试集取补集恢复。
-- 合金 POSCAR 文件（优化候选结构与 DFT 验证结构）托管于 Zenodo：
-  [DOI 待补充]。
+- 合金 POSCAR 文件（优化候选结构与 DFT 验证结构）以及文章图表的源数据托管于
+  Zenodo：https://doi.org/10.5281/zenodo.23938398。
 - 优化脚本需要 `{bi,ter,quater,qui}_alloy/{fcc,bcc,hcp}/POSCAR_{Fe,W,Zr}_{fcc,bcc,hcp}`
   形式的纯金属超胞模板；该类模板可由 `framework/` 中的单胞生成（脚本在读取
   模板后会调用 `make_supercell`）。
