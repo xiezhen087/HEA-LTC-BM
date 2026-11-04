@@ -104,11 +104,17 @@ Additional folders:
 
 ## Data availability
 
-Alloy POSCAR files (optimization candidates and DFT-validation structures),
-the training dataset products, and the `plus_analysis` data folders are
-hosted on Zenodo: [DOI to be added]. Script data paths marked with
-`# TODO: set your local data path` should be pointed at the downloaded
-data package.
+Source data for Tables 4-7 and all data-generated figures, including the
+experimental and literature-validation data, are available on Zenodo at
+https://doi.org/10.5281/zenodo.23938398. The MP and AFLOW IDs used for model
+training/validation and alloy structures in pre-testing datasets are provided
+with the code on GitHub at https://github.com/xiezhen087/HEA-LTC-BM
+(`code/materials_id_in_data_sets/materials_ids_in_datasets.xls`). Modeling and
+property details for all pre-testing alloys are provided in the Supplementary
+Information.
+
+Script data paths marked with `# TODO: set your local data path` should be
+pointed at the downloaded data package.
 
 ## Requirements
 
@@ -203,9 +209,15 @@ AI 辅助部分：`plus_analysis/` 中的数据可视化与验证脚本，以及
 
 ## 数据可用性
 
-合金 POSCAR 文件（优化候选结构与 DFT 验证结构）、训练数据集产物以及
-`plus_analysis` 的数据文件夹托管于 Zenodo：[DOI 待补充]。脚本中带有
-`# TODO: set your local data path` 标记的数据路径，请指向下载后的数据包。
+表 4-7 及所有由数据生成的图件的源数据（包括实验数据与文献验证数据）均可在
+Zenodo 获取：https://doi.org/10.5281/zenodo.23938398。模型训练/验证所用的
+MP 与 AFLOW 条目 ID 以及预测试数据集的合金结构随代码提供于 GitHub
+https://github.com/xiezhen087/HEA-LTC-BM
+（`code/materials_id_in_data_sets/materials_ids_in_datasets.xls`）。所有预测试
+合金的建模与性质细节见补充信息（Supplementary Information）。
+
+脚本中带有 `# TODO: set your local data path` 标记的数据路径，请指向下载后的
+数据包。
 
 ## 运行环境
 
