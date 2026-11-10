@@ -1,0 +1,25 @@
+data_global _chemical_name MyName
+_cell_length_a 3.584500
+_cell_length_b 10.753500
+_cell_length_c 3.584500
+_cell_angle_alpha 90.000000
+_cell_angle_beta 90.000000
+_cell_angle_gamma 90.000000
+_symmetry_space_group_name_H-M 'P 1'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ni 1.000000 1.000000 1.000000
+Cu 1.000000 0.333333 1.000000
+Ni 1.000000 0.666667 1.000000
+Cu 1.000000 0.166667 0.500000
+Ni 1.000000 0.500000 0.500000
+Ni 1.000000 0.833333 0.500000
+Ni 0.500000 1.000000 0.500000
+Cu 0.500000 0.333333 0.500000
+Ni 0.500000 0.666667 0.500000
+Ni 0.500000 0.166667 1.000000
+Ni 0.500000 0.500000 1.000000
+Cu 0.500000 0.833333 1.000000
